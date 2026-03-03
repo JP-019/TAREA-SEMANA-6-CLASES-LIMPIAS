@@ -1,0 +1,6 @@
+/**
+ * proximity.js  
+Este archivo ilustra el principio de proximidad, que recomienda mantener juntos los métodos y
+ funciones que están relacionados. El ejemplo enseña cómo organizar el código para que operaciones 
+ que afectan el mismo estado (como depositar y retirar en una cuenta) estén cercanas, evitando confusión y mejorando la legibilidad.
+ */
