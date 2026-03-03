@@ -1,0 +1,4 @@
+
+Aquí se aborda el uso de clases pequeñas, mostrando que incluso estructuras simples tienen valor cuando separan responsabilidades. 
+El ejemplo contrasta un código “sucio” donde la validación está mezclada dentro de una clase principal, con un diseño limpio en el
+ que una clase o módulo pequeño (validator) se encarga exclusivamente de esa tarea.

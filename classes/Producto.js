@@ -1,17 +1,15 @@
-// archivo: classes/producto.js
 export class Producto {
-    constructor(nombre, precio){
-        this.nombre = nombre;
-        this.precio = precio;
+    constructor(nombre,precio) {
+        this.nombre=nombre;
+        this.precio=precio;
     }
 
-    // Método para calcular el impuesto
-    calcularImpuesto(porcentaje = 0.18){
-        return this.precio * porcentaje;
+    calcularImpuesto(Porcentaje=0.18){
+        return this.precio*Porcentaje;
+    
     }
 
-    // Método para calcular el precio final con impuesto
-    calcularImpuestoFinal(porcentaje = 0.18){
-        return this.precio + this.calcularImpuesto(porcentaje);
+    calcularImpuestoFinal(Porcentaje=0.18){
+        return this.precio +this.calcularImpuesto(Porcentaje)
     }
 }

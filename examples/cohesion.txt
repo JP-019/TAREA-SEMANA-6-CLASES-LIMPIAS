@@ -1,0 +1,5 @@
+Este archivo demuestra el principio de cohesión, mostrando
+cómo una clase debe tener una única responsabilidad. El ejemplo compara
+un diseño “sucio”, donde una clase mezcla operaciones bancarias con generación
+de reportes, contra un diseño limpio en el que cada clase se centra en su tarea
+específica, facilitando el mantenimiento y la claridad del código. */
